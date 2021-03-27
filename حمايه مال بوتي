@@ -4,13 +4,13 @@ error_reporting(0);
 
 ob_start();
 
-$bot_id = "1798062295"; // ايدي بوتك
+$bot_id = "1037559017"; // ايدي بوتك
 
-$admmm = "1733589047";
+$admmm = "608871721";
 
-$tbbots = "zzxx_4"; 
+$tbbots = "ieoooo"; 
 
-$API_KEY = "1798062295:AAFukf-7dc8SqSVky1VQaX13gCUq-k5BwS8";
+$API_KEY = "توكن";
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $iBadlz = http_build_query($datas);
@@ -19,7 +19,7 @@ function bot($method,$datas=[]){
         return json_decode($iBadlz);
 }
 
-$Dev = array("$admmm","1438306983");// حط ايدي مطور ثاني بدل الاصفار
+$Dev = array("$admmm","000");// حط ايدي مطور ثاني بدل الاصفار
 @$channel = "phprim";
 @$token = API_KEY;
 $buyy = "@$tbbots";
