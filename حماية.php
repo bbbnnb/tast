@@ -5,14 +5,14 @@ define('API_KEY',$API_KEY);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
             function bot($method,$datas=[]){
     $ALI = http_build_query($datas);
-        $url = "https://api.telegram.org/bot".API_KEY."/".$method."?$ALI";
+        $url = "https://api.telegram.org/bot".1798062295:AAFukf-7dc8SqSVky1VQaX13gCUq-k5BwS8."/".$method."?$ALI";
         $XT1XT1 = file_get_contents($url);
         return json_decode($XT1XT1);
 }
 $update=json_decode(file_get_contents('php://input'));
 $update2=json_decode(file_get_contents('php://input'),true);
-$sudo = "637549705";
-$username="TIME7BOT";
+$sudo = "1438306983";
+$username="k4hbot";
 $namechat=$update->message->chat->title;
 $chattype=$update->message->chat->type;
 $emoji=explode(",","😀,😃,😄,😁,😆,😅,😂,🤣,☺️,😊,😇,🙂,🙃,😉,😌,😍,😘,😗,😙,😚,😋,😜,😝,😛,🤑,🤗,🤓,😎,🤡,🤠,😏,😒,
